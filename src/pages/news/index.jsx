@@ -1,6 +1,7 @@
 import NewsCard from "@/components/News/NewsCard";
 import { NextSeo } from "next-seo";
 import NewsSidebar from "@/components/News/NewsSidebar";
+import { recentNews } from "@/components/DataNews/recentNewsData";
 import React from "react";
 
 const News = () => {
@@ -37,33 +38,10 @@ const News = () => {
         }
     ]
 
-    console.log(news);
+    // console.log(news);
 
     // for News Sidebar
-    const recentNews=[
-{
-    image_recent:"/image -15.png",
-    heading_recent:"Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
-    date_recent:"Aug 06 ,2023"
-} ,
-{
-    image_recent:"/image -15.png",
-    heading_recent:"Airee’s Montreal Tigers clinch GT20 Canada 2022 title",
-    date_recent:"Dec 02 ,2021"
-
-} , 
-{
-    image_recent:"/image -15.png",
-    heading_recent:"Airee’s Montreal Tigers clinch GT21 america 2023 title",
-    date_recent:"Aug 06 ,2019"
-} ,
-{
-    image_recent:"/image -15.png",
-    heading_recent:"Club Montreal Tigers clinch GT20 Canada 2022 title",
-    date_recent:"Jan 02 ,2020"
-
-} , 
- ]
+  
     return (
         <>
             <NextSeo
