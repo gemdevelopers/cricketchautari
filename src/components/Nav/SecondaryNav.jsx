@@ -10,19 +10,19 @@ const SecondaryNav = () => {
                         <li className="px-4 py-3 font-bold bg-[#157B5C]">
                             <Link href={`/`}>MATCHES</Link>
                         </li>
-                        <li className="px-[20px] py-3">
+                        <li className="px-[12px] py-3">
                             <Link href={`/`}>WI vs IND - Preview</Link>
                         </li>
-                        <li className="px-[20px] py-3">
+                        <li className="px-[12px] py-3">
                             <Link href={`/`}>NORW vs SOUW - Live</Link>
                         </li>
-                        <li className="px-[20px] py-3">
+                        <li className="px-[12px] py-3">
                             <Link href={`/`}>SOU vs NORS - Preview</Link>
                         </li>
-                        <li className="px-[20px] py-3">
+                        <li className="px-[12px] py-3">
                             <Link href={`/`}>SOUSJG vs MNT - Preview</Link>
                         </li>
-                        <li className="px-[20px] py-3">
+                        <li className="px-[12px] py-3">
                             <Link href={`/`}>SJG vs MNT - Preview</Link>
                         </li>
                     </ul>

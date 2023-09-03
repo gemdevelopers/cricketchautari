@@ -1,5 +1,6 @@
+import Footer from "@/components/Footer/Footer";
 import HomeSlider from "@/components/Home/HomeSlider";
-import TabContents from "@/components/Home/TabContents";
+import TabContents from "@/components/Home/Tab/TabContents";
 import TrendingNews from "@/components/Home/TrendingNews";
 import { NextSeo } from "next-seo";
 
@@ -15,10 +16,14 @@ export default function Home() {
       </div>
 
       <div className="bg-[#f0f0f0]">
-        <div className="ctr py-14 grid grid-cols-12 gap-6">
+        <div className="ctr py-12 grid grid-cols-12 gap-4">
           <TrendingNews />
           <TabContents />
         </div>
+      </div>
+
+      <div className="bg-[#525151]">
+        <Footer />
       </div>
     </>
   )
