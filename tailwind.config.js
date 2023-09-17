@@ -19,6 +19,15 @@ module.exports = {
         siluguri: ['Hind Siliguri', 'sans-serif']
       },
   },
+  screens:{
+    'sm': {'max': '479px'}, // Max width of 479px
+      'md': {'max': '767px'}, // Max width of 767px
+      'lg': {'max': '1023px'}, // Max width of 1023px
+      'xl': {'max': '1199px'}, // Max width of 1199px
+      '2xl': {'max': '1535px'}, // Max width of 1535px
+
+  },
+  
 },
   plugins: [],
 }
