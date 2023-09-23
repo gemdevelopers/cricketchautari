@@ -50,7 +50,7 @@ const News = () => {
             />
             <div className="ctr">
                 <div className="mt-8">
-                    <ul className="pl-4 flex justify-center items-center sm:w- sm:w-max sm:ml-[-20px]">
+                    <ul className="pl-4 lg:flex justify-center items-center  sm:w-max md:w-max md:ml-[-20px] sm:ml-[-20px]">
                         <li className="text-white py-3 px-12 bg-cc-primary font-medium cursor-pointer text-xl rounded-l-lg">Latest News</li>
                         <li className="py-3 px-12 text-[#25252599] font-medium cursor-pointer text-xl bg-[#E4E6F0] hover:bg-cc-primary hover:text-white">Tournament</li>
                         <li className="py-3 px-12 text-[#25252599] font-medium cursor-pointer text-xl bg-[#E4E6F0] hover:bg-cc-primary hover:text-white">Series</li>
@@ -59,16 +59,16 @@ const News = () => {
                 </div>
 
                 <div className="mt-10 grid grid-cols-12">
-                    <div className=" col-span-9 sm:col-span-12 ">
+                    <div className=" lg:col-span-9 sm:col-span-12 md:col-span-12 ">
                         {news.map((data, index) => (
 
                             <NewsCard key={index} id={index + 1} info={data} />
                         ))
                         }
                     </div>
-                    <div className="col-span-3 sm:col-start-1 sm:col-end-12 sm:w-[720px]  sm:text-xl"> 
+                    <div className="lg:col-span-3 sm:col-start-1 sm:col-end-12  sm:w-[720px]  sm:text-xl md:col-start-1  md:col-end-12 md:w-[720px]"> 
                     <div className="mt-4 ml-4  ">
-                    <div className="bg-cc-primary py-[13px] pl-[7px] rounded-lg sm:text-2xl">
+                    <div className="bg-cc-primary py-[13px] pl-[7px] rounded-lg sm:text-2xl md:text-3xl">
                         <span className="font-medium  text-[#F4F4F4] w-[106px]">
                             Most Read
                         </span>

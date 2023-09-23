@@ -59,7 +59,7 @@ const SliderSimilarSingleNews = () => {
 
                 {
                     currentSlideIndex !== sliderRef.current?.swiper.slides.length - 3 && (
-                        <div onClick={handleNext} className="bg-cc-primary p-3 pt-5 pb-5 text-white absolute right-4 md:right-8 top-[50%] z-10 -translate-y-[50%] cursor-pointer rounded-l-lg">
+                        <div onClick={handleNext} className="bg-cc-primary p-3 pt-5 pb-5 text-white absolute right-4 md:right-8   z-10 -translate-y-[50%] cursor-pointer rounded-l-lg">
                             <img src={`slider-arrow-next.svg`} />
                         </div>
                     )

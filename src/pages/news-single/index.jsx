@@ -23,12 +23,12 @@ const newsSingle = () => {
             />
             <div className="ctr">
                 <div className="w-[466px] h-6 my-10 ml-1">
-                    <h2 className="font-siluguri text-xl font-semibold  sm:text-6xl">Asia Cup 2023: Pakistan's strongest XI</h2>
+                    <h2 className="font-siluguri text-xl font-semibold  sm:text-6xl md:text-7xl">Asia Cup 2023: Pakistan's strongest XI</h2>
                     <div className="border-b-2 border-[#238A6B]"></div>
                 </div>
               
-                <div className="grid grid-cols-12">
-                    <div className="col-span-9 sm:col-span-12 sm:w-[1582px]">
+                <div className="grid grid-cols-12 ">
+                    <div className="col-span-9 sm:col-span-12 sm:w-[1582px] md:col-span-12 md:w-[1582px]">
                         {/* component news single */}
 
                         <div className="bg-[#EEEFF5]">
@@ -42,9 +42,9 @@ const newsSingle = () => {
                         </div>
 
                     </div>
-                    <div className="col-span-3 sm:col-start-1 sm:col-end-12 sm:w-[1582px]">
+                    <div className="col-span-3 sm:col-start-1 sm:col-end-12 sm:w-[1582px] md:w-[1582px] sm:text-7xl md:col-start-1 md:col-end-12 md:text-7xl">
                     <div className="mt-4 ml-4">
-                <div className="bg-cc-primary py-[13px] pl-[7px] rounded-lg  sm:text-6xl">
+                <div className="bg-cc-primary py-[13px] pl-[7px] rounded-lg ">
                     <span className="font-medium  text-[#F4F4F4] w-[106px]">
                         Most Read
                     </span>
@@ -59,11 +59,11 @@ const newsSingle = () => {
                     </div>
                 </div>
                 <div className="my-7">
-                    <h3 className="text-2xl font-semibold   sm:text-5xl">Similar News</h3>
+                    <h3 className="text-2xl font-semibold   sm:text-5xl md:text-6xl">Similar News</h3>
                     <div className="border-b-2 border-[#238A6B]"></div>
                 </div>
                 {/* news similar component */}
-                <div className="flex  -mx-2">
+                {/* <div className="flex  -mx-2">
                
                     {similarNewsShowData.map((data3, index) => (
                         
@@ -73,7 +73,7 @@ const newsSingle = () => {
                     ))
                     }
                      
-                </div>
+                </div> */}
 
             </div>
 
