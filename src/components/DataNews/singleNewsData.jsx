@@ -2,9 +2,9 @@ export const singleNewsData=[
     {
         image: "/image-27.png",
         title: "Asia Cup 2023: Pakistan's strongest XI",
-        description: `Nepal has bagged a win against UAE A in the final group stage match of the ACC Emerging Teams Asia Cup. Team Nepal were victorious by three wickets, chasing a modest target of 158.
+        description: `Nnepal has bagged a win against UAE A in the final group stage match of the ACC Emerging Teams Asia Cup. Team Nepal were victorious by three wickets, chasing a modest target of 158.
 
-        Nepal reached the target in 23 overs, finishing the match with 162 balls spares. Kushal Bhurtel – the star of the first inning, grabbing six wickets, yielded an electrifying start after losing Arjun Saud for a golden duck in the very first ball of the inning.
+        Nepal reached the target in 23 overs, finishing the match with 162 balls spares. Kushal Bhurtel the star of the first inning, grabbing six wickets, yielded an electrifying start after losing Arjun Saud for a golden duck in the very first ball of the inning.
         
         Bhurtel hammered 71 runs from 43 balls, smacking nine fours and four sixes. Dev Khanal made a composed 24 runs and shared 98 runs stand with Bhurtel for the second wicket. Sundeep Jora played an entertaining knock of 15-ball 24.
         

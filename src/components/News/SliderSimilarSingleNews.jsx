@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import NewsSimilar from './NewsSimilar';
 import {similarNewsShowData} from '@/components/DataNews/similarNewsData'
+import Image from 'next/image';
 const SliderSimilarSingleNews = () => {
 
     const sliderRef = useRef(null);
@@ -52,7 +53,7 @@ const SliderSimilarSingleNews = () => {
                     currentSlideIndex !== 0 && (
                         <div onClick={handlePrev} className="bg-cc-primary p-3 pt-5 pb-5 text-white absolute left-4 md:left-8 top-[50%] z-10 -translate-y-[50%] cursor-pointer rounded-r-lg">
                             {/* <img src={`slider-arrow-next.svg`} className="transform scale-x-[-1]" /> */}
-                            <img src="/slider-arrow-next.svg" className="transform scale-x-[-1]" />
+                            <Image src="/slider-arrow-next.svg" className="transform scale-x-[-1]" alt="Description of the image"/>
                         </div>
                     )
                 }
@@ -60,7 +61,7 @@ const SliderSimilarSingleNews = () => {
                 {
                     currentSlideIndex !== sliderRef.current?.swiper.slides.length - 3 && (
                         <div onClick={handleNext} className="bg-cc-primary p-3 pt-5 pb-5 text-white absolute right-4 md:right-8   z-10 -translate-y-[50%] cursor-pointer rounded-l-lg">
-                            <img src={`slider-arrow-next.svg`} />
+                            <Image src={`slider-arrow-next.svg`} alt="Description of the image"/>
                         </div>
                     )
                 }

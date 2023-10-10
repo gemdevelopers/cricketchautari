@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
 import NewsTitleDate from '@/components/Home/NewsTitleDate'
@@ -21,7 +23,7 @@ const TrendingNews = () => {
         },
         {
             id: 4,
-            title: "Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+            title: "Airees Montreal Tigers clinch GT20 Canada 2023 title",
             date: "Dec 20, 2023"
         }
     ]
@@ -34,7 +36,7 @@ const TrendingNews = () => {
                     width="758"
                     height={}
                     /> */}
-                    <img src={`/trending-news.jpg`} width="100%" />
+                    <Image src={`/trending-news.jpg`} width="100%" alt="Description of the image"/>
                     <div className="absolute top-0 left-0 w-full h-[55px] bg-[#363636AB]"></div>
                     <div className="absolute top-0 left-2 px-3 py-3 text-white">
                         <h2 className="text-2xl font-semibold">Trending News</h2>

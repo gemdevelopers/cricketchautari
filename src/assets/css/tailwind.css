@@ -9,5 +9,5 @@ html {
 }
 
 .ctr {
-    @apply container mx-auto px-4 md:px-8
+    @apply container mx-auto px-4 md:px-8;
 }

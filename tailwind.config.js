@@ -20,13 +20,27 @@ module.exports = {
       },
   },
   screens:{
-    'sm': {'max': '479px'}, // Max width of 479px
-      'md': {'max': '767px'}, // Max width of 767px
-      'lg': {'max': '1023px'}, // Max width of 1023px
-      //'xl': {'max': '1599px'}, // Max width of 1199px
-      'xl': {'min': '1024px'}, // Min width of 1024px
-     
+   // 'sm': '640px',
+    // => @media (min-width: 640px) { ... }
 
+   // 'md': '768px',
+    // => @media (min-width: 768px) { ... }
+
+    //'lg': '1024px',
+    // => @media (min-width: 1024px) { ... }
+
+   // 'xl': '1280px',
+    // => @media (min-width: 1280px) { ... }
+
+  //  '2xl': '1536px',
+    // => @media (min-width: 1536px) { ... }
+
+    //new
+    'sm': {'min': '479px'}, // Min width of 479px
+    'md': {'min': '767px'}, // Min width of 767px
+    'lg': {'min': '1023px'}, // Min width of 1023px
+    'xl': {'min': '1599px'}, // Min width of 1199px
+    
   },
   
 },

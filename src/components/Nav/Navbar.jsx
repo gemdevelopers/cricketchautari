@@ -3,6 +3,7 @@ import Link from "next/link"
 import SecondaryNav from "@/components/Nav/SecondaryNav"
 import Logo from "@/components/UI/Logo"
 import Search from "@/components/Icons/Search"
+import Image from "next/image"
 
 const Navbar = () => {
     return (
@@ -24,7 +25,8 @@ const Navbar = () => {
                                 <button type="button" className="px-4 py-2 font-normal text-white uppercase bg-cc-primary rounded-lg">Sign In</button>
                             </li>
                             <li className="cursor-pointer">
-                                <img src={`/search.svg`} />
+                                <Image src={`/search.svg`}  width={0}
+  height={0} alt="Description of the image" />
                             </li>
                             <Search />
                         </ul>
