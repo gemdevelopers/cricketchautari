@@ -21,16 +21,16 @@ const Navbar = () => {
                                 hideSearchBox ? (
                                     <>
 
-                                        <li>
+                                        <li className="hidden lg:inline-block">
                                             <Link href={`/news`} >News</Link>
                                         </li>
-                                        <li>
+                                        <li className="hidden lg:inline-block">
                                             <Link href={`/videos`} >Videos</Link>
                                         </li>
-                                        <li>
+                                        <li className="hidden">
                                             <button type="button" className="px-4 py-2 font-normal text-white uppercase bg-cc-primary rounded-lg hover:bg-cc-secondary">Sign In</button>
                                         </li>
-                                        <li className="cursor-pointer" onClick={() => { setHideSearchBox(!hideSearchBox) }}>
+                                        <li className="cursor-pointer hidden md:inline-block" onClick={() => { setHideSearchBox(!hideSearchBox) }}>
                                             <img src={`/search.svg`} />
                                         </li>
                                     </>

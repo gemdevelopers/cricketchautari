@@ -28,33 +28,33 @@ const Footer = () => {
 
                 </div> */}
 
-                <div className="py-8 grid grid-cols-12 gap-20">
-                    <div className="col-span-3">
+                <div className="py-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5 xl:gap-20">
+                    <div className="mx-auto">
                         <img src={`/cricket-chautari-white.svg`} />
                     </div>
-                    <div className="col-span-3 text-center">
+                    <div className=" text-center">
                         <h3 className="mb-2 text-white text-[22px] font-normal">Quick Links</h3>
                         <ul>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">Home</li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">News</li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">Videos</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">Home</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">News</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">Videos</li>
                         </ul>
                     </div>
-                    <div className="col-span-3 text-center">
+                    <div className=" text-center">
                         <h3 className="mb-2 text-white text-[22px] font-normal">Top Series</h3>
                         <ul>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">Indian Premier League (IPL)</li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">Caribbean Premier Leahue (CPL)</li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">Pakistan Super League (PSL)</li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white">Big Bash league (BBL)</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">Indian Premier League (IPL)</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">Caribbean Premier Leahue (CPL)</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">Pakistan Super League (PSL)</li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base">Big Bash league (BBL)</li>
                         </ul>
                     </div>
-                    <div className="col-span-3 text-center">
+                    <div className=" text-center">
                         <h3 className="mb-2 text-white text-[22px] font-normal">Trending News</h3>
                         <ul>
-                            <li className="py-2 font-siluguri font-normal text-base text-white underline">Dipendra Singh Airee’s Montreal </li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white underline">Nepal ends Emerging Teams </li>
-                            <li className="py-2 font-siluguri font-normal text-base text-white underline">Tigers clinch GT20 Canada 2023 </li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base underline">Dipendra Singh Airee’s Montreal </li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base underline">Nepal ends Emerging Teams </li>
+                            <li className="py-2 font-siluguri font-normal text-sm text-white lg:text-base underline">Tigers clinch GT20 Canada 2023 </li>
                         </ul>
                     </div>
                 </div>

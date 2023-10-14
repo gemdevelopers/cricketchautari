@@ -6,7 +6,7 @@ import LiveTabContent from '@/components/Home/Tab/LiveTabContent'
 
 const TabContents = () => {
     const [isHovered, setIsHovered] = useState(false)
-    const [tabSlug, setTabSlug] = useState('videos')
+    const [tabSlug, setTabSlug] = useState('news')
     const handleMouseHover = (slug) => {
         setIsHovered(true)
         switch (slug) {
@@ -54,47 +54,47 @@ const TabContents = () => {
 
     return (
         <>
-            <div className="col-span-8 ">
-                <ul className="flex justify-center">
+            <div className="col-span-full lg:col-span-8 -mt-5">
+                <ul className="flex justify-center items-center">
                     <li
-                        className={`px-12 py-3 font-medium cursor-pointer rounded-l-lg flex gap-2
+                        className={`px-4 py-3 text-sm font-medium cursor-pointer rounded-l-lg flex gap-2 md:px-8 xl:px-12
                         ${tabSlug === 'news' ? ' text-white bg-cc-primary' : ' text-cc-primary bg-[#e4e6f0] hover:bg-cc-primary hover:text-white'}`}
                         // onMouseEnter={() => handleMouseHover('news')}
                         // onMouseLeave={() => handleMouseLeave('news')}
                         onClick={() => setTabSlug('news')}
                     >
-                        <img src={`news-icon.svg`} id="newsIcon" />
+                        <img className="hidden sm:inline-block" src={`news-icon.svg`} id="newsIcon" />
                         <p>News</p>
                     </li>
                     <li
-                        className={`px-12 py-3 font-medium cursor-pointer flex gap-2
+                        className={`px-4 py-3 text-sm font-medium cursor-pointer flex gap-2 md:px-8 xl:px-12
                         ${tabSlug === 'videos' ? ' text-white bg-cc-primary' : ' text-cc-primary bg-[#e4e6f0] hover:bg-cc-primary hover:text-white'}`}
 
                         // onMouseEnter={() => handleMouseHover('videos')}
                         // onMouseLeave={() => handleMouseLeave('videos')}
                         onClick={() => setTabSlug('videos')}
                     >
-                        <img src={`videos-icon.svg`} id="videoIcon" />
+                        <img className="hidden sm:inline-block" src={`videos-icon.svg`} id="videoIcon" />
                         <p>Videos</p>
                     </li>
                     <li
-                        className={`px-12 py-3 font-medium cursor-pointer flex gap-2
+                        className={`px-4 py-3 text-sm font-medium cursor-pointer flex gap-2 md:px-8 xl:px-12
                         ${tabSlug === 'teams' ? ' text-white bg-cc-primary' : ' text-cc-primary bg-[#e4e6f0] hover:bg-cc-primary hover:text-white'}`}
                         // onMouseEnter={() => handleMouseHover('teams')}
                         // onMouseLeave={() => handleMouseLeave('teams')}
                         onClick={() => setTabSlug('teams')}
                     >
-                        <img src={`team-icon.svg`} id="teamIcon" />
+                        <img className="hidden sm:inline-block" src={`team-icon.svg`} id="teamIcon" />
                         <p>Teams</p>
                     </li>
                     <li
-                        className={`px-12 py-3  font-medium cursor-pointer rounded-r-lg flex gap-2
+                        className={`px-4 py-3 text-sm font-medium cursor-pointer rounded-r-lg flex gap-2 md:px-8 xl:px-12
                         ${tabSlug === 'live' ? ' text-white bg-cc-primary' : ' text-cc-primary bg-[#e4e6f0] hover:bg-cc-primary hover:text-white'}`}
                         // onMouseEnter={() => handleMouseHover('live')}
                         // onMouseLeave={() => handleMouseLeave('live')}
                         onClick={() => setTabSlug('live')}
                     >
-                        <img src={`live-icon.svg`} id="liveIcon" />
+                        <img className="hidden sm:inline-block" src={`live-icon.svg`} id="liveIcon" />
                         <p>Live Scores</p>
                     </li>
                 </ul>
