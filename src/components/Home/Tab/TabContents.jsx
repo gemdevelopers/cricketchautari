@@ -54,7 +54,7 @@ const TabContents = () => {
 
     return (
         <>
-            <div className="col-span-full lg:col-span-8 -mt-5">
+            <div className="col-span-full lg:col-span-8 sm:-mt-5 lg:mt-0">
                 <ul className="flex justify-center items-center">
                     <li
                         className={`px-4 py-3 text-sm font-medium cursor-pointer rounded-l-lg flex gap-2 md:px-8 xl:px-12
