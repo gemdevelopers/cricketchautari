@@ -7,7 +7,7 @@ const NewsSidebar = ({recent_shorttitle}) => {
              <div className="bg-[#EEEFF5] w-80 py-3 mt-4  rounded-lg md:mr-[-142px]">
                     <div className="bg-[#EEEFF5] flex">
                         <div className="flex-shrink-0 ">
-                            <img src="/image15.png" className="py-[7px] pl-2 rounded-[4px]  "alt="Description of the image"/>
+                            <Image src="/image15.png" height={50} width={50} className="py-[7px] pl-2 rounded-[4px]  "alt="Description of the image"/>
                         </div>
                         <div className="my-[7px] pl-4 md:mr-1 mr-6 ">
                             {/* ttest12 */}

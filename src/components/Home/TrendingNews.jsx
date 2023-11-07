@@ -36,7 +36,7 @@ const TrendingNews = () => {
                     width="758"
                     height={}
                     /> */}
-                    <Image src={`/trending-news.jpg`} width="100%" alt="Description of the image"/>
+                    <Image src={`/trending-news.jpg`} width="775" height="495" alt="Description of the image"/>
                     <div className="absolute top-0 left-0 w-full h-[55px] bg-[#363636AB]"></div>
                     <div className="absolute top-0 left-2 px-3 py-3 text-white">
                         <h2 className="text-2xl font-semibold">Trending News</h2>
