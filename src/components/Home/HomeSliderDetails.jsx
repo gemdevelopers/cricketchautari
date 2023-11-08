@@ -11,11 +11,11 @@ const HomeSliderDetails = ({ silderData }) => {
                 <div className="mb-4 flex justify-between">
                     <div>
                         <div className="mb-2 flex gap-3">
-                            <img src={`/india.svg`} />
+                            <img src={`/india.svg`} alt="Flag" />
                             <p className="font-medium text-sm xl:text-base">India</p>
                         </div>
                         <div className="flex gap-3">
-                            <img src={`/netherland.svg`} />
+                            <img src={`/netherland.svg`} alt="Flag" />
                             <p className="font-medium text-sm xl:text-base">Netherland</p>
                         </div>
                     </div>

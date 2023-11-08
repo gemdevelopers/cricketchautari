@@ -31,7 +31,7 @@ const Navbar = () => {
                                             <button type="button" className="px-4 py-2 font-normal text-white uppercase bg-cc-primary rounded-lg hover:bg-cc-secondary">Sign In</button>
                                         </li>
                                         <li className="cursor-pointer hidden md:inline-block" onClick={() => { setHideSearchBox(!hideSearchBox) }}>
-                                            <img src={`/search.svg`} />
+                                            <img src={`/search.svg`} alt="Search Icon" />
                                         </li>
                                     </>
                                 )

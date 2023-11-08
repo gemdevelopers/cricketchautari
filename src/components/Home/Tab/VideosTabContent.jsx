@@ -6,11 +6,11 @@ import CategoryButton from '@/components/UI/CategoryButton'
 const VideosTabContent = () => {
     const news = [
         {
-            title: "Asia Cup 2023: Pakistan's strongest XI",
+            title: "Asia Cup 2023: Pakistan strongest XI",
             date: "Oct 10, 2022"
         },
         {
-            title: "Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+            title: "Airee Montreal Tigers clinch GT20 Canada 2023 title",
             date: "Jan 25, 2023"
         }
     ]
@@ -29,7 +29,7 @@ const VideosTabContent = () => {
                         blurDataURL="/cricket-chautari.svg"
                     />
                     <div className="px-4 sm:px-12 py-2 sm:py-6 absolute text-white bottom-0">
-                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan's strongest XI</h2>
+                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan strongest XI</h2>
                         <p className="sm:mt-6">Aug 09, 2023</p>
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center cursor-pointer">
@@ -91,7 +91,7 @@ const VideosTabContent = () => {
                             </div>
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-base font-medium">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-base font-medium">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const VideosTabContent = () => {
                             </div>
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-base font-medium">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-base font-medium">Airee  Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -127,7 +127,7 @@ const VideosTabContent = () => {
                             </div>
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-base font-medium">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-base font-medium">Airee  Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ const VideosTabContent = () => {
                             </div>
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-base font-medium">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-base font-medium">Airee  Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>

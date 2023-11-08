@@ -5,7 +5,7 @@ const HotNews = () => {
     return (
         <div className="hot-news">
             <div className="px-5 flex gap-2">
-                <img src={`/hot.svg`} />
+                <img src={`/hot.svg`} alt="Hot News" />
                 <h2 className="text-xl font-semibold">Hot News</h2>
             </div>
             <div className="p-4">

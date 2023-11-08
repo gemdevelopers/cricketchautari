@@ -7,11 +7,11 @@ const NewsTabContent = () => {
 
     const news = [
         {
-            title: "Asia Cup 2023: Pakistan's strongest XI",
+            title: "Asia Cup 2023: Pakistan strongest XI",
             date: "Oct 10, 2022"
         },
         {
-            title: "Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+            title: "Airee Montreal Tigers clinch GT20 Canada 2023 title",
             date: "Jan 25, 2023"
         }
     ]
@@ -28,9 +28,10 @@ const NewsTabContent = () => {
                         className='transform transition-transform duration-500 hover:scale-110 w-full h-auto object-contain'
                         placeholder="blur"
                         blurDataURL="/cricket-chautari.svg"
+                        alt="Asia Cup 2023: Pakistan strongest XI"
                     />
                     <div className="px-4 sm:px-10 py-3 sm:py-6 absolute text-white bottom-0">
-                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan's strongest XI</h2>
+                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan strongest XI</h2>
                         <p className="text-[#f4f4f4e6] text-sm font-normal text-justify hidden sm:inline-block lg:text-sm xl:text-base">
                             <span className="text-base font-semibold">Montreal Tigers</span> registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League Canada this year. Dipendra Singh Airee, who made his first-ever appearance in the international franchise league, achieved a sensational victory in the final
                         </p>
@@ -68,7 +69,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -77,7 +78,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -86,7 +87,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -95,7 +96,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -113,9 +114,10 @@ const NewsTabContent = () => {
                         className='transform transition-transform duration-500 hover:scale-110 w-full h-auto object-contain'
                         placeholder="blur"
                         blurDataURL="/cricket-chautari.svg"
+                        alt="Image"
                     />
                     <div className="px-4 sm:px-10 py-3 sm:py-6 absolute text-white bottom-0">
-                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan's strongest XI</h2>
+                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan strongest XI</h2>
                         <p className="text-[#f4f4f4e6] text-sm font-normal text-justify hidden sm:inline-block lg:text-sm xl:text-base">
                             <span className="text-base font-semibold">Montreal Tigers</span> registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League Canada this year. Dipendra Singh Airee, who made his first-ever appearance in the international franchise league, achieved a sensational victory in the final
                         </p>
@@ -153,7 +155,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -162,7 +164,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -171,7 +173,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -180,7 +182,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -198,9 +200,10 @@ const NewsTabContent = () => {
                         className='transform transition-transform duration-500 hover:scale-110 w-full h-auto object-contain'
                         placeholder="blur"
                         blurDataURL="/cricket-chautari.svg"
+                        alt="Asia Cup 2023: Pakistan's strongest XI"
                     />
                     <div className="px-4 sm:px-10 py-3 sm:py-6 absolute text-white bottom-0">
-                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan's strongest XI</h2>
+                        <h2 className="text-base sm:text-xl mb-2 font-siluguri font-semibold">Asia Cup 2023: Pakistan strongest XI</h2>
                         <p className="text-[#f4f4f4e6] text-sm font-normal text-justify hidden sm:inline-block lg:text-sm xl:text-base">
                             <span className="text-base font-semibold">Montreal Tigers</span> registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League Canada this year. Dipendra Singh Airee, who made his first-ever appearance in the international franchise league, achieved a sensational victory in the final
                         </p>
@@ -238,7 +241,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -247,7 +250,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -256,7 +259,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>
@@ -265,7 +268,7 @@ const NewsTabContent = () => {
                             <img src={`/image-three.jpg`} alt="Image" />
                         </div>
                         <div className="mt-3">
-                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee’s Montreal Tigers clinch GT20 Canada 2023 title</h3>
+                            <h3 className="font-siluguri text-sm font-medium lg:text-sm xl:text-base">Airee Montreal Tigers clinch GT20 Canada 2023 title</h3>
                             <p className="pt-3 text-sm font-normal text-[#252525B8]">Aug 06, 2023</p>
                         </div>
                     </div>

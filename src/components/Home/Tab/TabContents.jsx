@@ -63,7 +63,7 @@ const TabContents = () => {
                         // onMouseLeave={() => handleMouseLeave('news')}
                         onClick={() => setTabSlug('news')}
                     >
-                        <img className="hidden sm:inline-block" src={`news-icon.svg`} id="newsIcon" />
+                        <img className="hidden sm:inline-block" src={`news-icon.svg`} id="newsIcon" alt="News" />
                         <p>News</p>
                     </li>
                     <li
@@ -74,7 +74,7 @@ const TabContents = () => {
                         // onMouseLeave={() => handleMouseLeave('videos')}
                         onClick={() => setTabSlug('videos')}
                     >
-                        <img className="hidden sm:inline-block" src={`videos-icon.svg`} id="videoIcon" />
+                        <img className="hidden sm:inline-block" src={`videos-icon.svg`} id="videoIcon" alt="Videos" />
                         <p>Videos</p>
                     </li>
                     <li
@@ -84,7 +84,7 @@ const TabContents = () => {
                         // onMouseLeave={() => handleMouseLeave('teams')}
                         onClick={() => setTabSlug('teams')}
                     >
-                        <img className="hidden sm:inline-block" src={`team-icon.svg`} id="teamIcon" />
+                        <img className="hidden sm:inline-block" src={`team-icon.svg`} id="teamIcon" alt="Teams" />
                         <p>Teams</p>
                     </li>
                     <li
@@ -94,7 +94,7 @@ const TabContents = () => {
                         // onMouseLeave={() => handleMouseLeave('live')}
                         onClick={() => setTabSlug('live')}
                     >
-                        <img className="hidden sm:inline-block" src={`live-icon.svg`} id="liveIcon" />
+                        <img className="hidden sm:inline-block" src={`live-icon.svg`} id="liveIcon" alt="Scroes" />
                         <p>Live Scores</p>
                     </li>
                 </ul>
