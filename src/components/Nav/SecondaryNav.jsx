@@ -5,31 +5,27 @@ const SecondaryNav = () => {
     return (
         <>
             <nav className="bg-cc-primary">
-                <div className="ctr flex justify-between items-center">
-                    <ul className="pl-4 text-white font-medium flex">
-                        <li className="px-4 py-3 font-bold bg-[#157B5C]">
+                <div className="ctr md:flex md:justify-between md:items-center">
+                    <ul className="pl-4 text-white font-medium flex items-center">
+                        <li className="px-4 py-3 font-bold bg-[#157B5C] text-[10px] sm:text-base">
                             <Link href={`/`}>MATCHES</Link>
                         </li>
-                        <li className="px-[20px] py-3">
-                            <Link href={`/`}>WI vs IND - Preview</Link>
+                        <li className="py-3 px-[12px] md:px-[10px] lg:px-[12px] text-[10px] sm:text-base">
+                            <Link href={`/`}>WI vs IND - Live</Link>
                         </li>
-                        <li className="px-[20px] py-3">
-                            <Link href={`/`}>NORW vs SOUW - Live</Link>
+                        <li className="py-3 px-[12px] md:px-[10px] lg:px-[12px] text-[10px] sm:text-base">
+                            <Link href={`/`}>NORW vs SOUW - Preview</Link>
                         </li>
-                        <li className="px-[20px] py-3">
-                            <Link href={`/`}>SOU vs NORS - Preview</Link>
+                        <li className="px-[12px] py-3 hidden md:inline-block text-base">
+                            <Link href={`/`}>SOU vs NORS - Live</Link>
                         </li>
-                        <li className="px-[20px] py-3">
-                            <Link href={`/`}>SOUSJG vs MNT - Preview</Link>
+                        <li className="px-[12px] py-3 hidden lg:inline-block text-base">
+                            <Link href={`/`}>SOUSJG vs MNT - Live</Link>
                         </li>
-                        <li className="px-[20px] py-3">
-                            <Link href={`/`}>SJG vs MNT - Preview</Link>
+                        <li className="px-[12px] py-3 hidden xl:inline-block text-base">
+                            <Link href={`/`}>SJG vs MNT</Link>
                         </li>
                     </ul>
-                    {/* <div className="relative">
-                        <input type="text" className="px-2 py-1 text-center font-semibold rounded-full focus:outline-none" placeholder="Search" />
-                        <img src="/search-icon.svg" className="absolute top-2 left-2" />
-                    </div> */}
                 </div>
             </nav>
         </>

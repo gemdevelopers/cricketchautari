@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import HomeSlider from "@/components/Home/HomeSlider";
 import TabContents from "@/components/Home/TabContents";
 import TrendingNews from "@/components/Home/TrendingNews";
@@ -15,12 +16,17 @@ export default function Home() {
       </div>
 
       <div className="bg-[#f0f0f0]">
-        <div className="ctr py-14 grid grid-cols-12 gap-6">
+      <div className="ctr py-12 grid grid-cols-12 gap-4">
           <TrendingNews />
           <TabContents />
           
         </div>
       </div>
-    </>
+      <div className="bg-[#525151]">
+        <Footer/>
+      </div>
+    </>Tournament
+Tournament
+Tournament
   )
 }

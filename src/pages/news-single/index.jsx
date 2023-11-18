@@ -7,6 +7,7 @@ import { recentNews } from "@/components/DataNews/recentNewsData";
 import { singleNewsData } from "@/components/DataNews/singleNewsData";
 import { similarNewsShowData } from "@/components/DataNews/similarNewsData"
 import SliderSimilarSingleNews from "@/components/News/SliderSimilarSingleNews";
+import Footer from "@/components/Footer/Footer";
 
 
 
@@ -43,7 +44,7 @@ const newsSingle = () => {
 
                     </div>
                     <div className="col-span-3 md:col-span-4 ">
-                        <div className="mt-0 ml-2">
+                        <div className="mt-0 ml-2 ">
                             <div className="bg-cc-primary py-[13px] pl-[7px] rounded-lg ">
                                 <span className="font-medium  text-[#F4F4F4] w-16">
                                     Most Read
@@ -76,7 +77,9 @@ const newsSingle = () => {
                 </div> */}
 
             </div>
-
+            <div className="bg-[#525151]">
+                <Footer />
+            </div>
         </>
     );
 }

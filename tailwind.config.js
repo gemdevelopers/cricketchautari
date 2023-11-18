@@ -14,6 +14,7 @@ module.exports = {
         'cc-secondary': '#18A87F',
         'cc-yellow': '#FFD23F',
         'cc-blue': '#540D6E',
+        'cc-red': '#C22424',
       },
       fontFamily: {
         siluguri: ['Hind Siliguri', 'sans-serif']
