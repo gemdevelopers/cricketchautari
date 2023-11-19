@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CountryNewS = ({infoc}) => {
   return (
@@ -11,7 +12,7 @@ const CountryNewS = ({infoc}) => {
           <p className="my-5 font-siluguri font-normal text-2xl lg:text-xl">
             <span className="px-3 py-2 rounded-lg bg-[#FBFBFB]">{infoc.category}</span>
           </p>
-          <h3 className="font-siluguri font-normal text-2xl">{infoc.title}</h3>
+          <h3 className="font-siluguri font-normal text-2xl"><Link href="/news-single">{infoc.title}</Link></h3>
           <p className="mt-1  font-normal text-justify leading-6 text-xl lg:text-base">{infoc.description} </p>
           <p className="mt-6 text-[#252525B8] text-xl lg:text-sm">{infoc.date}</p>
         </div>
