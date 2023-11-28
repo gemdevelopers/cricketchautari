@@ -8,19 +8,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: "#FFFFFF",
-        black: "#000000",
-        "cc-primary": "#19936E",
-        "cc-secondary": "#18A87F",
-        "cc-yellow": "#FFD23F",
-        "cc-blue": "#540D6E",
-        "cc-red": "#C22424",
+
+        'white': '#FFFFFF',
+        'black': '#000000',
+        'cc-primary': '#19936E',
+        'cc-secondary': '#0E7959',
+        'cc-black': '#3A333A',
+        'cc-blue': '#1670F5',
+        'cc-red': '#C22424',
+
       },
       fontFamily: {
         siluguri: ["Hind Siliguri", "sans-serif"],
       },
     },
-  
+
   },
   plugins: [],
 };

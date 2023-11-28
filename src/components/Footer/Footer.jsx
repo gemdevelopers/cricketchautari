@@ -7,13 +7,16 @@ const Footer = () => {
                 <div className="py-4 mb-2 border-b-[1px] border-[#A1A1A1]">
                     <ul className="flex justify-end items-center">
                         <li className="ml-4">
-                            <img src={`fb.svg`} alt="Image" />
+
+                          
+                            <img src={`fb.svg`} />
                         </li>
                         <li className="ml-4">
-                            <img src={`v-x.svg`} alt="Image" />
+                            <img src={`v-x.svg`} />
                         </li>
                         <li className="ml-4">
-                            <img src={`yt.svg`} alt="Image" />
+                            <img src={`yt.svg`} />
+
                         </li>
                     </ul>
                 </div>

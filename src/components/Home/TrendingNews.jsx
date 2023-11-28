@@ -1,8 +1,16 @@
-"use client"
 
-import React from 'react'
+"use client"
+import React, { useRef, useState } from 'react'
+
 import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import NewsTitleDate from '@/components/Home/NewsTitleDate'
+import HotNews from '@/components/Home/HotNews';
+
+import 'swiper/css';
+import 'swiper/css/scrollbar';
+
+import { Scrollbar } from 'swiper/modules';
 
 const TrendingNews = () => {
     const news = [
@@ -29,27 +37,55 @@ const TrendingNews = () => {
     ]
     return (
         <>
-            <div className="col-span-4 flex flex-col rounded-t-xl overflow-hidden">
-                <div className="relative">
-                    {/* <Image
-                    src={`/trending-news.jpg`}
-                    width="758"
-                    height={}
-                    /> */}
-                    <Image src={`/trending-news.jpg`} width="775" height="495" alt="Description of the image"/>
-                    <div className="absolute top-0 left-0 w-full h-[55px] bg-[#363636AB]"></div>
-                    <div className="absolute top-0 left-2 px-3 py-3 text-white">
-                        <h2 className="text-2xl font-semibold">Trending News</h2>
+
+            <div className="sticky top-1  h-[calc(100vh-0px)] overflow-auto col-span-4 rounded-t-lg hidden lg:inline-block">
+                <div className="flex flex-col" id="hot-news-slider">
+                    {/* <div className="col-span-4 flex flex-col rounded-t-xl overflow-hidden" style={{ position: 'sticky', top: '8px', height: 'calc(100vh - 100px)', overflow: 'auto' }}> */}
+                    {/* Your sticky content */}
+
+                    <div className="mb-7 py-6 bg-[#DEE0EC] rounded-lg">
+                        <Swiper
+                            scrollbar={{
+                                hide: false,
+                            }}
+                            centeredSlides={true}
+                            modules={[Scrollbar]}
+                            className="custom-scroll-swiper"
+                        >
+                            <SwiperSlide><HotNews /> </SwiperSlide>
+                            <SwiperSlide><HotNews /> </SwiperSlide>
+                            <SwiperSlide><HotNews /> </SwiperSlide>
+                            <SwiperSlide><HotNews /> </SwiperSlide>
+                            <SwiperSlide><HotNews /> </SwiperSlide>
+                            <SwiperSlide><HotNews /> </SwiperSlide>
+                        </Swiper>
+
                     </div>
-                    <div className="absolute top-20 left-6 px-3 py-px text-lg rounded-full text-black font-medium bg-gray-300">1</div>
+
+                    <div className="relative">
+                        <Image
+                            src={`/trending-news.jpg`}
+                            width="379"
+                            height="343"
+                            placeholder="blur"
+                            blurDataURL="/cricket-chautari.svg"
+                            className="w-full h-auto object-contain rounded-t-md"
+                            alt="Trending News"
+                        />
+                        <div className="absolute top-0 left-0 w-full h-[55px] bg-[#363636AB] rounded-t-md"></div>
+                        <div className="absolute top-0 left-2 px-3 py-3 text-white">
+                            <h2 className="text-2xl font-semibold">Trending News</h2>
+                        </div>
+                        <div className="absolute left-6 px-3 py-px top-20 bg-gray-300 font-medium rounded-full text-black text-lg">1</div>
+                    </div>
+
+                    {
+                        news.map((data, index) => (
+                            <NewsTitleDate key={index} id={index + 1} info={data} />
+                        ))
+                    }
+
                 </div>
-
-                {
-                    news.map((data, index) => (
-                        <NewsTitleDate key={index} id={index + 1} info={data} />
-                    ))
-                }
-
             </div>
         </>
     )
