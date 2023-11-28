@@ -4,6 +4,8 @@ import NewsSidebar from "@/components/News/NewsSidebar";
 import { recentNews } from "@/components/DataNews/recentNewsData";
 import VideosCard from "@/components/Videos/Videoscard";
 import React, { useState } from "react";
+import SeriesVideos from "@/components/Videos/SeriesVideos";
+import TournamentVideos from "@/components/Videos/TournamentVideos";
 
 const Videos = () => {
   const [isVideoVisible, setVideoVisible] = useState(false);
@@ -57,6 +59,153 @@ const Videos = () => {
         "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
       date: "Aug 06, 2023",
     },
+  ];
+
+// series
+const videoseries = [
+    {
+      title:
+        "Rohit Sharma Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+      videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title: "Dipendra Singh Airee’s Montreal Tigers",
+      category: "Test Cup",
+       videolink:"https://www.youtube.com/embed/vKEWFB4kirA",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Jan 16, 2023",
+    },
+    {
+      title:
+        "Doni Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title:
+        "Dipendra Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title:
+        "Dipendra Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+  ];
+
+  // tournament
+
+  const videostournament = [
+    {
+      title:
+        "Bikash Sharma Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+      videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title: "Sabin Singh Airee’s Montreal Tigers",
+      category: "Test Cup",
+       videolink:"https://www.youtube.com/embed/vKEWFB4kirA",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Jan 16, 2023",
+    },
+    {
+      title:
+        "Bishal Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title:
+        "Doni Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title:
+        "Doni Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+   
+  ];
+
+  // country
+  const videoscountry = [
+    {
+      title:
+        "Ram Sharma Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+      videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title: "Binit Singh Airee’s Montreal Tigers",
+      category: "Test Cup",
+       videolink:"https://www.youtube.com/embed/vKEWFB4kirA",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Jan 16, 2023",
+    },
+    {
+      title:
+        "Bishal Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title:
+        "Doni Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+    {
+      title:
+        "Doni Singh Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+      category: "ICC World Cup",
+       videolink:"https://www.youtube.com/embed/_P7JjijXlYg?list=RD_P7JjijXlYg",
+      description:
+        "Montreal Tigers registered a five-wicket win over Surray Jaguars to clinch the title of Global T20 League e league, achieved a sensational victory in the final rs to clinch the",
+      date: "Aug 06, 2023",
+    },
+   
   ];
 
   // console.log(news);
@@ -131,7 +280,7 @@ const Videos = () => {
             ))}
           </div>
         </div>
-        {/* tournament videos */}
+        {/* series videos */}
         <div
           id="seriesvideo"
           className={`flex flex-col ${
@@ -147,12 +296,14 @@ const Videos = () => {
             allowfullscreen=""
           ></iframe>
            <div className="sm:flex-col md:grid md:grid-cols-3 lg:grid lg:grid-cols-4  ">
-            {videonewslatest.map((data, index) => (
-              <VideosCard key={index} id={index + 1} info={data} />
+           
+             {videoseries.map((data, index) => (
+              <SeriesVideos key={index} id={index + 1} infoseries={data} />
             ))}
           </div>
         </div>
-        {/* series video */}
+
+        {/* tournament video */}
         <div
           id="tournamentvideo"
           className={`flex flex-col ${
@@ -168,8 +319,8 @@ const Videos = () => {
             allowfullscreen=""
           ></iframe>
            <div className="sm:flex-col md:grid md:grid-cols-3 lg:grid lg:grid-cols-4  ">
-            {videonewslatest.map((data, index) => (
-              <VideosCard key={index} id={index + 1} info={data} />
+            {videostournament.map((data, index) => (
+              <TournamentVideos key={index} id={index + 1} infotournament={data} />
             ))}
           </div>
         </div>
@@ -190,7 +341,7 @@ const Videos = () => {
             allowfullscreen=""
           ></iframe>
            <div className="sm:flex-col md:grid md:grid-cols-3 lg:grid lg:grid-cols-4  ">
-            {videonewslatest.map((data, index) => (
+            {videoscountry.map((data, index) => (
               <VideosCard key={index} id={index + 1} info={data} />
             ))}
           </div>
