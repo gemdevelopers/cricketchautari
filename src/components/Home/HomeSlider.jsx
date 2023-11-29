@@ -1,9 +1,11 @@
+"use client"
+
 import React, { useRef, useCallback, useState } from 'react'
 import HomeSliderDetails from '@/components/Home/HomeSliderDetails'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-
+import Image from 'next/image';
 import { Navigation } from 'swiper/modules';
 
 const HomeSlider = () => {
@@ -122,6 +124,7 @@ const HomeSlider = () => {
                 </Swiper>
                 {
                     currentSlideIndex !== 0 && (
+
                         <div onClick={handlePrev} className="bg-cc-primary p-3 pt-5 pb-5 text-white absolute left-4 md:left-8 top-[50%] z-10 -translate-y-[50%] cursor-pointer rounded-r-lg hidden sm:inline-block">
                             <img src={`slider-arrow-next.svg`} className="transform scale-x-[-1]" />
                         </div>
@@ -130,8 +133,10 @@ const HomeSlider = () => {
 
                 {
                     currentSlideIndex !== sliderRef.current?.swiper.slides.length - 3 && (
+
                         <div onClick={handleNext} className="bg-cc-primary p-3 pt-5 pb-5 text-white absolute right-4 md:right-8 top-[50%] z-10 -translate-y-[50%] cursor-pointer rounded-l-lg hidden sm:inline-block">
                             <img src={`slider-arrow-next.svg`} />
+
                         </div>
                     )
                 }

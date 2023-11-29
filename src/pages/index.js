@@ -12,19 +12,23 @@ export default function Home() {
         description={`Cricket Chautari is a digital product where you can learn,play and earn by various experts ,news ,updates etc.`}
       />
       <div className="bg-[#f0f0f0] border-b-2 border-[#76767669]">
-        <HomeSlider />
+        {/* <HomeSlider /> */}
       </div>
 
       <div className="bg-[#f0f0f0]">
         <div className="ctr py-12 grid grid-cols-12 gap-4">
           <TrendingNews />
           <TabContents />
+
         </div>
       </div>
+
+
 
       <div className="bg-[#525151]">
         <Footer />
       </div>
     </>
+
   )
 }

@@ -2,13 +2,15 @@
   "name": "cc-front",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://cricketchautari.com",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
+    
   },
   "dependencies": {
+    "dompurify": "^3.0.5",
     "next": "13.4.13",
     "next-seo": "^6.1.0",
     "react": "18.2.0",

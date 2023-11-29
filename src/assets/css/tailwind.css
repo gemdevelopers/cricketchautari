@@ -9,8 +9,15 @@ html {
 }
 
 .ctr {
-    @apply container mx-auto px-4 md:px-8
+
+     @apply container mx-auto px-4 px-8 ;
+   
 }
+
+
+
+
+
 
 /* hot news scrollbar */
 #hot-news-slider .swiper-scrollbar {
@@ -25,4 +32,6 @@ html {
 
 #hot-news-slider .swiper-scrollbar .swiper-scrollbar-drag {
     @apply !w-14 !bg-cc-primary
+
 }
+

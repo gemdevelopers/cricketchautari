@@ -1,4 +1,7 @@
+
+"use client"
 import React, { useRef, useState } from 'react'
+
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import NewsTitleDate from '@/components/Home/NewsTitleDate'
@@ -28,12 +31,13 @@ const TrendingNews = () => {
         },
         {
             id: 4,
-            title: "Airee’s Montreal Tigers clinch GT20 Canada 2023 title",
+            title: "Airees Montreal Tigers clinch GT20 Canada 2023 title",
             date: "Dec 20, 2023"
         }
     ]
     return (
         <>
+
             <div className="sticky top-1  h-[calc(100vh-0px)] overflow-auto col-span-4 rounded-t-lg hidden lg:inline-block">
                 <div className="flex flex-col" id="hot-news-slider">
                     {/* <div className="col-span-4 flex flex-col rounded-t-xl overflow-hidden" style={{ position: 'sticky', top: '8px', height: 'calc(100vh - 100px)', overflow: 'auto' }}> */}
@@ -55,6 +59,7 @@ const TrendingNews = () => {
                             <SwiperSlide><HotNews /> </SwiperSlide>
                             <SwiperSlide><HotNews /> </SwiperSlide>
                         </Swiper>
+
                     </div>
 
                     <div className="relative">

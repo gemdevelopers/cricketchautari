@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 
@@ -11,12 +12,14 @@ const HomeSliderDetails = ({ silderData }) => {
                 <div className="mb-4 flex justify-between">
                     <div>
                         <div className="mb-2 flex gap-3">
+
                             <img src={`/india.svg`} />
                             <p className="font-medium text-sm xl:text-base">India</p>
                         </div>
                         <div className="flex gap-3">
                             <img src={`/netherland.svg`} />
                             <p className="font-medium text-sm xl:text-base">Netherland</p>
+
                         </div>
                     </div>
                     <div>
