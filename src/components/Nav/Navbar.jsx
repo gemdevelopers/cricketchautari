@@ -3,6 +3,8 @@ import Link from "next/link"
 import SecondaryNav from "@/components/Nav/SecondaryNav"
 import Logo from "@/components/UI/Logo"
 import Search from "@/components/Icons/Search"
+import { useRouter } from 'next/router';
+
 
 const Navbar = () => {
 

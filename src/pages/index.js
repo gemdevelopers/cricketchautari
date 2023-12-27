@@ -19,7 +19,6 @@ export default function Home() {
         <div className="ctr py-12 grid grid-cols-12 gap-4">
           <TrendingNews />
           <TabContents />
-
         </div>
       </div>
 
@@ -29,6 +28,8 @@ export default function Home() {
         <Footer />
       </div>
     </>
-
-  )
+  );
 }
+
+// test
+
