@@ -14,7 +14,7 @@ const VideosCard = ({ info, onVideoClick }) => {
         onVideoClick();
       }}
     >
-      <div className="bg-[#DEE0EC] p-2 rounded-lg">
+      <div className=" p-2 rounded-lg">
         <div className="transform transition-transform duration-500 hover:scale-110 rounded-t-lg relative">
           <Image
             src="/news-champ.jpg"
